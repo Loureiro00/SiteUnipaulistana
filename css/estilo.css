@@ -1,0 +1,26 @@
+body{
+    background-image: linear-gradient(to right, purple,yellow);
+}
+.login{
+    text-align: center;}
+
+
+form{
+     border : 3px solid  blanchedalmond; 
+    
+    /* border: linear-gradient(to right, black,blue);; */
+    margin-top: 140px;
+    margin-left: 535px;
+    margin-right: 535px;
+  }            
+
+  label{
+
+    font-size: 29px;
+  }
+
+  #botao{
+
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
