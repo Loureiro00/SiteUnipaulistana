@@ -16,8 +16,22 @@ function validacao(){
         else if ( usuario == "" && senha !=senhaValida){
             alert ("Não foi possivel logar, senha incorreta e usuario em branco");    
         }
-
-                 
+        //senha vazia
+        else if ( usuario != usuarioValido && senha ==""){
+            alert(" Não foi possivel logar, Usuario inválido e senha vazia")
+        }
+        else if ( usuario != usuarioValido && senha ==senhaValida){
+            alert(" Não foi possivel logar, Usuario inválido. ")
+        }
+        else if ( usuario != usuarioValido && senha != senhaValida){
+            alert(" Não foi possível logar, Usuario/senha inválidos")
+        }
+        else if ( usuario == usuarioValido && senha ==""){
+            alert(" Não foi possível logar, senha em branco.")
+        }   
+        else if ( usuario == usuarioValido && senha !=senhaValida){
+            alert(" Não foi possível logar, senha Inválida.")
+        }
        
         else if( usuario == usuarioValido && senha == senhaValida){
             alert(" Usuario valido !!");
