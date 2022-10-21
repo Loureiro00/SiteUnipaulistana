@@ -1,12 +1,12 @@
 body{
-    background-image: linear-gradient(to right, purple,yellow);
+    background-image: linear-gradient(to right, #ffa694,#ff5d19);
 }
 .login{
     text-align: center;}
 
 
 form{
-     border : 3px solid  blanchedalmond; 
+     border : 3px solid  #fff2d7; 
     
     /* border: linear-gradient(to right, black,blue);; */
     margin-top: 140px;
@@ -16,11 +16,21 @@ form{
 
   label{
 
+    margin-top: auto;
     font-size: 29px;
+    color: black;
+    text-decoration: underline overline;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 14px;
   }
 
   #botao{
 
-    margin-bottom: 10px;
-    font-size: 18px;
+    margin:10px 0 ;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 10px;
   }
