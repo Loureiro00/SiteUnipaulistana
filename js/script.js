@@ -35,5 +35,7 @@ function validacao(){
        
         else if( usuario == usuarioValido && senha == senhaValida){
             alert(" Usuario valido !!");
+            window.open("http://127.0.0.1:5500/test.html");
+          //  document.write("test.html");
         }
     }
